@@ -4,16 +4,14 @@
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
      </script>
      <script>
-      $(document).ready(function(){
-        for (var i=1; i>=50; i++) {
+        $(document).ready(function(){
           $("p").click(function(){
-            $("p").animate({
+            $("div").animate({
               "height":'+=30',
               "width" :'+=30'
             });
           });
-        }
-      });
+        });
      </script>
      <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
